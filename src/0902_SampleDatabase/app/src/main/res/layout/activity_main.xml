@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  android:paddingTop="10dp" >
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			>
+		<Button
+				android:id="@+id/createDatabaseBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:width="120dp"
+				android:text="Create database"
+				android:textSize="14dp"
+				/>
+		<EditText
+				android:id="@+id/databaseNameInput"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Database name"
+				android:text="customer.db"
+				android:textSize="18dp"
+				/>
+	</LinearLayout>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			>
+		<Button
+				android:id="@+id/createTableBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:width="120dp"
+				android:text="Create table"
+				android:textSize="14dp"
+				/>
+		<EditText
+				android:id="@+id/tableNameInput"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Table name"
+				android:text="employee"
+				android:textSize="18dp"
+				/>
+	</LinearLayout>
+	<TextView
+			android:id="@+id/status"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="State : "
+			android:textSize="14dp"
+			android:paddingLeft="10dp"
+			android:layout_marginTop="10dp"
+			/>
+
+</LinearLayout>
